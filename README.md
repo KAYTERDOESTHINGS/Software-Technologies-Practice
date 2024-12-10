@@ -29,6 +29,34 @@ npm i express sequelize dotenv bcryptjs mysql2 nodemon
 package-lock.json
 ```
 
+---
+
+### Disable `any` Warnings in TypeScript
+
+Update ESLint config:
+
+```json
+{
+  // ...
+  "@typescript-eslint/no-explicit-any": "off"
+  // ...
+}
+```
+
+---
+
+### Install Tailwind CSS in Vite
+
+Follow the guide: [Tailwind CSS + Vite](https://tailwindcss.com/docs/guides/vite)
+
+---
+
+### Deploy Vite on Render
+
+Tutorial: [Deploy Vite on Render](https://medium.com/technogise/deploying-a-react-vite-application-on-render-8eb9caeaa502)
+
+---
+
 ## VS Code Extensions:
 
 - Auto Import
@@ -53,4 +81,3 @@ package-lock.json
 - React Native Tools
 - Tailwind CSS IntelliSense
 - Error Lens
-
